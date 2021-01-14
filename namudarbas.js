@@ -176,14 +176,14 @@ console.log(abcsumine);
 
 
 
-const skaiciuSeka = [2, 4, 6, 8, 10,]
-console.log(skaiciuSeka);
+//const skaiciuSeka = [2, 4, 6, 8, 10,]
+//console.log(skaiciuSeka);
 
-const skaiciuSeka2 = [5, 10, 15, 20, 25]
-console.log(skaiciuSeka2);
+//const skaiciuSeka2 = [5, 10, 15, 20, 25]
+//console.log(skaiciuSeka2);
 
-const skaiciuSeka3 = [1000, 800, 600, 400, 200]
-console.log(skaiciuSeka3);
+//const skaiciuSeka3 = [1000, 800, 600, 400, 200]
+//console.log(skaiciuSeka3);
 
 
 const skai = (skaiciuSeka[0] - skaiciuSeka[1] + skaiciuSeka[2] - skaiciuSeka[3] + skaiciuSeka[4] )
@@ -196,6 +196,6 @@ console.log(skai3);
 
 //4) Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas
 
-const abcsumine = (a10 + ',' + ' ' +  b111 + ',' + ' ' +  c111)
-console.log(abcsumine);
+//const abcsumine = (a10 + ',' + ' ' +  b111 + ',' + ' ' +  c111)
+//console.log(abcsumine);
 

@@ -228,26 +228,66 @@ console.log(skaiciuSeka2);
 const skaiciuSeka3 = [1000, 800, 600, 400, 200]
 console.log(skaiciuSeka3);
 
+const sk11 = 2;
+console.log(sk11);
+const sk22 = 4;
+console.log(sk22);
+const sk33 = 6;
+console.log(sk33);
+const sk44 = 8;
+console.log(sk44);
+const sk55 = 10;
+console.log(sk55);
+
 
 //4) Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
 //a) Po kiekvieno jų inicijavimo, išvesti į console 
 
 
- const i = ("Roma")
- const j = ("Alytus")
- const k = ("Silale")
- const l = (k + ' ' + j + ' ' + i )
- console.log(l)
+ const a1 = ("Ryga");
+ const a2 = ("Tallinas");
+ const a3 = ("Londonas");
+ const a4 = ('Paryzius');
+ const a5 = ('Maskva');
+ const l = (a1 + a2 + a3 + a4 + a5 );
+ console.log(l);
+
+ const a10 = (a5 + ',' + ' ' + a4 + ',' + ' ' + a3 + ',' + ' ' + a2 + ',' + ' ' + a1)
+ console.log(a10);
 
 
-const miestai = ['Ryga' + ',' + ' ' + 'Tallinas' + ',' + ' ' +  'Londonas' + ',' + ' ' +  'Paryzius'  + ',' + ' ' + 'Maskva' ]
-console.log(miestai);
+ const b1 = ('gruodis');
+ const b2 = ('sausis');
+ const b3 = ('vasaris');
+ const b4 = ('kovas');
+ const b5 = ('balandis');
+ const b11 = (b1 + b2 + b3 + b4 + b5);
+console.log(b11);
 
-const menesis = ['gruodis' + ',' + ' ' + 'sausis' + ',' + ' ' +  'vasaris' + ',' + ' ' +  'kovas' + ',' + ' ' + 'balandis']
-console.log(menesis);
+const b111 = (b5 + ',' + ' ' + b4 + ',' + ' ' + b3 + ',' + ' ' + b2 + ',' + ' ' + b1)
+console.log(b111);
 
-const gatve = ['Naugarduko' + ',' + ' ' +  'Vytenio' + ',' + ' ' + 'Rygos' + ',' + ' ' + 'Svitrigailos' + ',' +  ' ' +  'Gedimino']
-console.log(gatve);
+const c1 = ('Naugarduko');
+const c2 = ('Vytenio');
+const c3 = ('Rygos');
+const c4 = ('Svitrigailos');
+const c5 = ('Gedimino');
+const c11 = (c1 + c2 + c3 + c4 + c5);
+console.log(c11);
+
+const c111 = (c5 + ',' + ' ' + c4 + ',' + ' ' + c3 + ',' + ' ' + c2 + ',' + ' ' + c1)
+console.log(c111);
+
+
+
+//const miestai = ['Ryga' + ',' + ' ' + 'Tallinas' + ',' + ' ' +  'Londonas' + ',' + ' ' +  'Paryzius'  + ',' + ' ' + 'Maskva' ]
+//console.log(miestai);
+
+//const menesis = ['gruodis' + ',' + ' ' + 'sausis' + ',' + ' ' +  'vasaris' + ',' + ' ' +  'kovas' + ',' + ' ' + 'balandis']
+//console.log(menesis);
+
+//const gatve = ['Naugarduko' + ',' + ' ' +  'Vytenio' + ',' + ' ' + 'Rygos' + ',' + ' ' + 'Svitrigailos' + ',' +  ' ' +  'Gedimino']
+//console.log(gatve);
 
 
 //Veiksmai su kintamaisiais
@@ -267,31 +307,32 @@ console.log(skaiciuSekossuma);
 
 console.log('--------------------------'); 
 
-const visumosSuma = (5+10+15+20+25+2+4+6+8+10+1000+800+600+400+200)
-console.log(visumosSuma);
+//const visumosSuma = (5+10+15+20+25+2+4+6+8+10+1000+800+600+400+200)
+//console.log(visumosSuma);
 
 //Sujungti visus teksto tipo kintamuosius taip, jog tarp jų būtų sudarytas tarpas
 //Rezultatą išvesti į console
 
-const pavadinimas =(menesis + ',' + ' ' + miestai + ',' + ' ' + gatve)
-console.log(pavadinimas); 
+//const pavadinimas =(menesis + ',' + ' ' + miestai + ',' + ' ' + gatve)
+//console.log(pavadinimas); 
 
-const pavadinimas2 = ( menesis + ' ' +  miestai + ' ' + gatve)
-console.log(pavadinimas2);
+//const pavadinimas2 = ( menesis + ' ' +  miestai + ' ' + gatve)
+//console.log(pavadinimas2);
 
 
-//Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką
-//1-2+3-4+5
-//Rezultatą išvesti į console
+//3) Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką
+//a) 1-2+3-4+5
+//b) Rezultatą išvesti į console
 
 const skai = (skaiciuSeka[0] - skaiciuSeka[1] + skaiciuSeka[2] - skaiciuSeka[3] + skaiciuSeka[4] )
 console.log(skai);
+const skai2 = (skaiciuSeka2[0] - skaiciuSeka2[1] + skaiciuSeka2[2] - skaiciuSeka2[3] + skaiciuSeka2[4])
+console.log(skai2);
+const skai3 = (skaiciuSeka3[0] - skaiciuSeka3[1] + skaiciuSeka3[2] - skaiciuSeka3[3] + skaiciuSeka3[4])
+console.log(skai3);
 
-const students = [5, 10, 13, 4, 6];
-console.log(students);
-const studentsCount = students[0] - students[1] + students[2] - students[3] + students[4];
-console.log(studentsCount);
 
 
+//Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, jog tarp jų būtų kablelis ir tarpas
 
 
