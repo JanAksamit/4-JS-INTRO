@@ -101,7 +101,7 @@ const a5 = ('Maskva');
 console.log(a5);
 const l = (a1 + a2 + a3 + a4 + a5 );
 console.log(l);
-
+console.log('Kiek yra simboliu miestu pavadinimu sarase:', l.length);
 
 
 
@@ -117,7 +117,7 @@ const b5 = ('balandis');
 console.log(b5);
 const b11 = (b1 + b2 + b3 + b4 + b5);
 console.log(b11);
-
+console.log('Kiek yra simboliu menesiu pavadinimu sarase:', b11.length);
 
 const c1 = ('Naugarduko');
 console.log(c1);
@@ -131,11 +131,17 @@ const c5 = ('Gedimino');
 console.log(c5);
 const c11 = (c1 + c2 + c3 + c4 + c5);
 console.log(c11);
+console.log('Kiek yra simboliu gatviu sarase:', c11.length);
 
-
+console.log('---------');
 console.log('----------------');
 
 
+if(b11 > c11) {
+    console.log('Menesiu saraso simboliu skaicius didesnis');
+} else {
+    console.log('Gatviu saraso simboliu skaicius didesnis');
+}
 //Veiksmai su kintamaisiais
 
 //1) Susumuoti visus skaičiaus tipo kintamuosius
@@ -199,3 +205,108 @@ console.log(skai3);
 //const abcsumine = (a10 + ',' + ' ' +  b111 + ',' + ' ' +  c111)
 //console.log(abcsumine);
 
+
+
+console.log('---------------------');
+
+//Lyginant, jei rezultatas tenkina palyginimo sąlygą, 
+//tai į console išvesti žodį “Pomidoras”, o jei sąlyga nėra tenkinama,
+// išvesti sakinį “Bandykite kitą kartą.”.
+
+
+
+const a = 4;
+const c = 4;
+
+if (a === c) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite dar karta');
+}
+
+const d = 4;
+const f = 80;
+if (d === f) {
+        console.log('Pomidoras');
+} else {
+        console.log('Bandykite dar karta');
+}
+
+console.log('-------');
+
+
+/* Tarpusavyje palyginti skaičiaus tipo kintamuosius:
+kuris didesnis
+kuris mažesnis
+ar jie lygūs
+ar jie nelygūs
+kuris didesnis arba lygus
+kuris mažesnis arba lygus 
+*/
+
+const a12 = 999;
+const a13 = 1001;
+
+if (a12 > a13){
+            console.log(a12);
+} else {
+            console.log(a13);
+}
+
+if (a12 < a13) {
+        console.log(a12);
+} else {
+        console.log(a13);
+}
+
+if(a12 === a13) {
+            console.log('lygus');
+} else {
+            console.log('nelygus');
+}
+
+if(a12 <= a13) {
+            console.log('lygus arba mazesnis');
+} else {
+            console.log('didesnis arba lygus');
+}
+
+
+console.log('------');
+
+
+//Išvesti teksto tipo kintamųjų ilgius
+
+//++
+
+const a40 = 'Italija';
+const a41 = 'Zimbabve';
+
+console.log('Simboliu skaicius:', a40.length);
+console.log('Simboliu skaicius:', a41.length);
+
+if(a40.length > a41.length) {
+        console.log('Zodis Italija turi daugiau simboliu');
+} else {
+        console.log('Zodis Italija turi maziau simboliu');
+}
+
+if(a40.length < a41.length) {
+    console.log('Zodis Zimbabve turi daugiau simboliu');
+} else {
+    console.log('Zodis Italija turi daugiau simboliu');
+}
+
+const zodis = 'zodis';
+const zodisIlgis = zodis.length;
+console.log(`"${zodis}" ilgis yra ${zodisIlgis}.`);
+
+
+const a100 = 100;
+const a200 = 101;
+
+if(a100 === a200) {
+            console.log('=');
+} else {
+            console.log('!=');
+}
